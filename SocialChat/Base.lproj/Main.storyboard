@@ -1,24 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="loginVC" customModule="SocialChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find new friends nearby." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hs-uY-DJk">
+                                <rect key="frame" x="25" y="384" width="325" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0Hs-uY-DJk" secondAttribute="height" multiplier="325:110" id="CZx-2q-p3g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                <color key="textColor" name="#FFFFFF"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="With milions of users all over the world, we gives you the ability to connect with people no matter where you are." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8le-uQ-cao">
+                                <rect key="frame" x="30" y="503" width="315" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8le-uQ-cao" secondAttribute="height" multiplier="315:67" id="0Bh-KQ-wNS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="#FFFFFF"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUU-79-xFg">
+                                <rect key="frame" x="30" y="607" width="315" height="44"/>
+                                <color key="backgroundColor" name="#FFFFFF"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aUU-79-xFg" secondAttribute="height" multiplier="315:44" id="rOr-IZ-KuX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="1" green="0.1764705882352941" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzr-mC-Kw9">
+                                <rect key="frame" x="30" y="661" width="315" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qzr-mC-Kw9" secondAttribute="height" multiplier="315:44" id="BXC-Yi-vkW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" name="#FFFFFF"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or log in with" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZI-Rt-LQl">
+                                <rect key="frame" x="134.66666666666666" y="735" width="106" height="21.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" name="#4E586E"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="ZiB-BL-Xw5" userLabel="SocialButtonSV">
+                                <rect key="frame" x="134.66666666666666" y="774.66666666666663" width="106" height="28"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lxd-HB-kHn">
+                                        <rect key="frame" x="0.0" y="0.0" width="28" height="28"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="icon_facebook"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjg-SE-1uj">
+                                        <rect key="frame" x="39" y="0.0" width="28" height="28"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="icon_twiter"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lyx-bN-fme">
+                                        <rect key="frame" x="78" y="0.0" width="28" height="28"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="icon_google"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="#1F2530"/>
+                        <constraints>
+                            <constraint firstItem="aUU-79-xFg" firstAttribute="top" secondItem="8le-uQ-cao" secondAttribute="bottom" constant="37" id="0ds-kt-l5d"/>
+                            <constraint firstItem="xZI-Rt-LQl" firstAttribute="top" secondItem="qzr-mC-Kw9" secondAttribute="bottom" constant="30" id="2zN-IP-2Cb"/>
+                            <constraint firstItem="qzr-mC-Kw9" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.84" id="3S4-qm-Lbd"/>
+                            <constraint firstItem="8le-uQ-cao" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.84" id="AZO-PU-iV3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8le-uQ-cao" secondAttribute="trailing" constant="30" id="EZL-3T-t6r"/>
+                            <constraint firstItem="aUU-79-xFg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HPZ-bf-FZl"/>
+                            <constraint firstItem="8le-uQ-cao" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ifv-35-d8s"/>
+                            <constraint firstItem="ZiB-BL-Xw5" firstAttribute="top" secondItem="xZI-Rt-LQl" secondAttribute="bottom" constant="18" id="KZb-bZ-Wbv"/>
+                            <constraint firstItem="ZiB-BL-Xw5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O4U-4b-lQi"/>
+                            <constraint firstItem="0Hs-uY-DJk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="325" id="aeH-rc-BDP"/>
+                            <constraint firstItem="aUU-79-xFg" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.84" id="bw9-Uf-isS"/>
+                            <constraint firstItem="qzr-mC-Kw9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d6E-Wu-QFB"/>
+                            <constraint firstItem="0Hs-uY-DJk" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.866667" id="gZn-JF-7kG"/>
+                            <constraint firstItem="0Hs-uY-DJk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iER-Ni-BSC"/>
+                            <constraint firstItem="xZI-Rt-LQl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k6X-Ne-DgH"/>
+                            <constraint firstItem="qzr-mC-Kw9" firstAttribute="top" secondItem="aUU-79-xFg" secondAttribute="bottom" constant="10" id="lUh-hk-jWb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Hs-uY-DJk" secondAttribute="trailing" constant="25" id="sSG-71-02s"/>
+                            <constraint firstItem="8le-uQ-cao" firstAttribute="top" secondItem="0Hs-uY-DJk" secondAttribute="bottom" constant="9" id="uMq-6o-n81"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="aUU-79-xFg" id="Fjv-5O-9ne"/>
+                        <outlet property="sigupButton" destination="qzr-mC-Kw9" id="kAa-Ut-84N"/>
+                        <outlet property="viewBaground" destination="8bC-Xf-vdC" id="Th9-Rv-iIP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="17.557251908396946" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_facebook" width="28" height="28"/>
+        <image name="icon_google" width="28" height="28"/>
+        <image name="icon_twiter" width="28" height="28"/>
+        <namedColor name="#1F2530">
+            <color red="0.12156862745098039" green="0.14509803921568626" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#4E586E">
+            <color red="0.30588235294117649" green="0.34509803921568627" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#FFFFFF">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>
