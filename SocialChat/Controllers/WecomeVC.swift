@@ -7,7 +7,7 @@
 
 import UIKit
 
-class loginVC: UIViewController {
+class WecomeVC: UIViewController {
     
     // MARK: - Outlets
     
