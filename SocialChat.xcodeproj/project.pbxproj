@@ -17,6 +17,7 @@
 		0F9252F12AEF29F900851FA4 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252F02AEF29F900851FA4 /* Extension+UIView.swift */; };
 		0F9252F32AEF352D00851FA4 /* Exteinsions+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252F22AEF352D00851FA4 /* Exteinsions+UIImage.swift */; };
 		0F9252F52AEF416300851FA4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252F42AEF416300851FA4 /* LoginVC.swift */; };
+		0F9252F72AF03A2900851FA4 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252F62AF03A2900851FA4 /* ForgetPasswordVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0F9252F02AEF29F900851FA4 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		0F9252F22AEF352D00851FA4 /* Exteinsions+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exteinsions+UIImage.swift"; sourceTree = "<group>"; };
 		0F9252F42AEF416300851FA4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		0F9252F62AF03A2900851FA4 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				0F9252D92AEF269800851FA4 /* WecomeVC.swift */,
 				0F9252F42AEF416300851FA4 /* LoginVC.swift */,
+				0F9252F62AF03A2900851FA4 /* ForgetPasswordVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				0F9252EC2AEF276B00851FA4 /* Colors.swift in Sources */,
 				0F9252F52AEF416300851FA4 /* LoginVC.swift in Sources */,
 				0F9252F12AEF29F900851FA4 /* Extension+UIView.swift in Sources */,
+				0F9252F72AF03A2900851FA4 /* ForgetPasswordVC.swift in Sources */,
 				0F9252D62AEF269800851FA4 /* AppDelegate.swift in Sources */,
 				0F9252D82AEF269800851FA4 /* SceneDelegate.swift in Sources */,
 				0F9252F32AEF352D00851FA4 /* Exteinsions+UIImage.swift in Sources */,

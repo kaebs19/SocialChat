@@ -24,10 +24,13 @@ class WecomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
         loginButton.addRadius(radius: 22)
-        sigupButton.addRadius(radius: 22)
-        
-        
+        for buttons in [sigupButton] {
+            buttons?.addRadius(radius: 22)
+            buttons?.applyGradient(colours: [.F_78361 , .F_54_B_64])
+            buttons?.clipsToBounds = true
+        }
         
         
         // MARK: -  Configure Action - Func
