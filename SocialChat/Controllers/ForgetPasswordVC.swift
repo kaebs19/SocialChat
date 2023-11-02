@@ -36,6 +36,9 @@ class ForgetPasswordVC: UIViewController {
     
     // MARK: -  Configure Action - Func
 
+    @IBAction func closeButton(_ sender: UIButton) {
+        dismiss(animated: true)
+    }
     
 
 }

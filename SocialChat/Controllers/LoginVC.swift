@@ -44,5 +44,15 @@ class LoginVC: UIViewController {
         
         
     }
+    // go to forget password
+    @IBAction func forgotPassword(_ sender: UIButton) {
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "ForgetPasswordVC")  else {return}
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
+    
+    @IBAction func closeButton(_ sender: UIButton) {
+        dismiss(animated: true)
+    }
     
 }

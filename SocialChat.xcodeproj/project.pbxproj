@@ -18,6 +18,7 @@
 		0F9252F32AEF352D00851FA4 /* Exteinsions+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252F22AEF352D00851FA4 /* Exteinsions+UIImage.swift */; };
 		0F9252F52AEF416300851FA4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252F42AEF416300851FA4 /* LoginVC.swift */; };
 		0F9252F72AF03A2900851FA4 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252F62AF03A2900851FA4 /* ForgetPasswordVC.swift */; };
+		0F9252FB2AF2C3FC00851FA4 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9252FA2AF2C3FC00851FA4 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0F9252F22AEF352D00851FA4 /* Exteinsions+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exteinsions+UIImage.swift"; sourceTree = "<group>"; };
 		0F9252F42AEF416300851FA4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0F9252F62AF03A2900851FA4 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
+		0F9252FA2AF2C3FC00851FA4 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				0F9252D92AEF269800851FA4 /* WecomeVC.swift */,
 				0F9252F42AEF416300851FA4 /* LoginVC.swift */,
 				0F9252F62AF03A2900851FA4 /* ForgetPasswordVC.swift */,
+				0F9252FA2AF2C3FC00851FA4 /* SignUpVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				0F9252F72AF03A2900851FA4 /* ForgetPasswordVC.swift in Sources */,
 				0F9252D62AEF269800851FA4 /* AppDelegate.swift in Sources */,
 				0F9252D82AEF269800851FA4 /* SceneDelegate.swift in Sources */,
+				0F9252FB2AF2C3FC00851FA4 /* SignUpVC.swift in Sources */,
 				0F9252F32AEF352D00851FA4 /* Exteinsions+UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

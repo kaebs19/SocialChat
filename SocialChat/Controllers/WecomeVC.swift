@@ -38,5 +38,18 @@ class WecomeVC: UIViewController {
         
     }
     
+    @IBAction func loginPressed(_ sender: UIButton) {
+        
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "LoginVC") else {return}
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
     
+    @IBAction func signupPressed(_ sender: UIButton) {
+        
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "SignUp") else {return}
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true, completion: nil)
+        
+    }
 }
