@@ -35,6 +35,14 @@ extension UIView {
         return gradient
     }
     
+    // make view circl
+   
+    func makeCircular() {
+        self.layer.cornerRadius = min(self.frame.size.width, self.frame.size.height) / 2
+        self.clipsToBounds = true
+    }
+
+
     
 }
 
